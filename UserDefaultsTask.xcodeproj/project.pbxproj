@@ -12,6 +12,7 @@
 		E612CEBC20924756008CFEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E612CEBA20924756008CFEB2 /* Main.storyboard */; };
 		E612CEBE2092475A008CFEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E612CEBD2092475A008CFEB2 /* Assets.xcassets */; };
 		E612CEC12092475A008CFEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E612CEBF2092475A008CFEB2 /* LaunchScreen.storyboard */; };
+		E612CEC9209247A6008CFEB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CEC8209247A6008CFEB2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E612CEBD2092475A008CFEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E612CEC02092475A008CFEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E612CEC22092475A008CFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E612CEC8209247A6008CFEB2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E612CEB620924756008CFEB2 /* AppDelegate.swift */,
 				E612CEB820924756008CFEB2 /* ViewController.swift */,
 				E612CEBA20924756008CFEB2 /* Main.storyboard */,
+				E612CEC8209247A6008CFEB2 /* SecondViewController.swift */,
 				E612CEBD2092475A008CFEB2 /* Assets.xcassets */,
 				E612CEBF2092475A008CFEB2 /* LaunchScreen.storyboard */,
 				E612CEC22092475A008CFEB2 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E612CEC9209247A6008CFEB2 /* SecondViewController.swift in Sources */,
 				E612CEB920924756008CFEB2 /* ViewController.swift in Sources */,
 				E612CEB720924756008CFEB2 /* AppDelegate.swift in Sources */,
 			);
