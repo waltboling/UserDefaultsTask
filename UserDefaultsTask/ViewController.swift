@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    struct DefaultKey {
+        static let inputText = "InputText"
+    }
     @IBOutlet weak var inputTextField: UITextField!
     
     override func viewDidLoad() {
@@ -24,12 +27,12 @@ class ViewController: UIViewController {
 
     @IBAction func saveButton(_ sender: Any) {
         let userDefaults = UserDefaults.standard
-        userDefaults.set(inputTextField.text, forKey: "InputText")
+        userDefaults.set(inputTextField.text, forKey: DefaultKey.inputText)
        
     }
     
     @IBAction func showButton(_ sender: Any) {
-    performSegue(withIdentifier: "toSecondVC", sender: self)
+    performSegue(withIdentifier: "toSecondVC", sender: self) // also could make this a struct or private constant
     }
     
     
